@@ -55,7 +55,7 @@
      - `select_validator()`: Sélectionne un validateur en fonction de sa mise.
      - `add_block(data)`: Ajoute un nouveau bloc à la chaîne avec Proof of Stake.
      - `is_chain_valid()`: Vérifie l'intégrité de la chaîne de blocs.
-# Comparaison 
+# Comparaison POW VS POS
 ## Temps d'exécution des blocs
 -Pour POW les temps d'exécution des blocs augmentent avec la difficulté. Par exemple, le temps pour un bloc avec une difficulté de 5 était de 4.11 secondes et a atteint jusqu'à 8.18 secondes pour d'autres blocs.
 -Pour POS Les temps d'exécution sont très constants et rapides, tous autour de 0.002 à 0.003 secondes, indépendamment du nombre de blocs ajoutés.
